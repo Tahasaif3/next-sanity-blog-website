@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AlertBanner() {
   return (
     <header className="fixed top-0 left-0 z-50 w-full bg-white/95 text-black border-b backdrop-blur">
@@ -9,28 +11,28 @@ export default function AlertBanner() {
 
         <ul className="hidden md:flex space-x-8 text-sm font-medium">
           <li>
-            <a
+            <Link
               href="/"
               className="text-black hover:text-teal-500 transition-colors duration-200"
             >
               Blogs
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/about"
               className="text-black hover:text-teal-500 transition-colors duration-200"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/contact"
               className="text-black hover:text-teal-500 transition-colors duration-200"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 

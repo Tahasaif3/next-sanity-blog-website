@@ -119,7 +119,7 @@ export default function AboutPage() {
                 Bridging Technology and Knowledge
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                At TechVista, we're committed to demystifying complex technologies and making them accessible to everyone. 
+                At TechVista, we are committed to demystifying complex technologies and making them accessible to everyone. 
                 Our mission is to provide reliable, engaging, and in-depth coverage of emerging technologies, programming trends, 
                 and artificial intelligence.
               </p>
@@ -156,7 +156,7 @@ export default function AboutPage() {
               Meet Our Team
             </h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              The passionate individuals behind TechVista's success
+              The passionate individuals behind TechVista`s success
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
