@@ -6,7 +6,7 @@ export default function AlertBanner() {
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
        
         <div className="text-lg font-bold">
-          <a href="/">MyBlog</a>
+          <Link href="/">MyBlog</Link>
         </div>
 
         <ul className="hidden md:flex space-x-8 text-sm font-medium">
