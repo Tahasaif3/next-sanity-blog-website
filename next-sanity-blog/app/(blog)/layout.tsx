@@ -146,7 +146,7 @@ export default async function RootLayout({
       </div>
     </div>
     <div className="mt-12 text-center text-gray-400">
-      © {new Date().getFullYear()} Your Blog Name. All rights reserved.
+      © {new Date().getFullYear()} TechVista Blogs. All rights reserved.
     </div>
   </div>
               )}
