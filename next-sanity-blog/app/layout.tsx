@@ -1,8 +1,6 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Analytics } from "@vercel/analytics/react"
-import Head from 'next/head';
-import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,15 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <Head>
+      <head>
         <meta charSet="UTF-8"/>
         <meta name="keywords" content="CSS,C,SCSS,NEXT,HTML,JAVASCRIPT,TYPESCIRPT,TECHNOLOGY,ARTIFICAL INTELLIGENCE,PYTHON,SANITY,TAILWIND CSS,REACT" />
-        <Script
+        <script
           async
           src={'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4686305629312312'}
           crossOrigin="anonymous"
-        />
-      </Head>
+       ></script>
+      </head>
       <body className="min-h-screen bg-gray-100 text-gray-900">
       <Analytics />
         {children}
