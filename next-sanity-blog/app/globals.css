@@ -7,4 +7,8 @@
       @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600;
     }
   }
-  
+  /* globals.css */
+.ad-container {
+  margin: 20px auto;
+  text-align: center;
+}

@@ -1,6 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Analytics } from "@vercel/analytics/react"
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,8 +27,25 @@ export default function RootLayout({
        ></script>
       </head>
       <body className="min-h-screen bg-gray-100 text-gray-900">
-      <Analytics />
+     
+        {/* Ad Unit */}
+        <div className="ad-container">
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-4686305629312312"
+            data-ad-slot="8638134425"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <Script id="ads-init">
+            {`
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            `}
+          </Script>
+        </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );

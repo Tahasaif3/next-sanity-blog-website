@@ -1,7 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "@next/next/no-script-component-in-head": "off",
+    "@next/next/no-script-component-in-head": "off"
   },
   "root": true
 }
